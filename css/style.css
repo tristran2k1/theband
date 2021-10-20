@@ -166,7 +166,11 @@ html{
     font-size: 20px;
 }
 
-
+#slider{
+    margin-top: 46px;
+    padding-top: 50%;
+    position: relative;
+}
 
 #slider .text-content{
     position:absolute;
