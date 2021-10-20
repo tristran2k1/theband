@@ -79,6 +79,7 @@ html{
     left: 0;
     right: 0;
     z-index: 1;
+    overflow: hidden;
 }
 
 #nav{
@@ -151,10 +152,18 @@ html{
     background-color: #f44336;
 }
 
+#header .mobile-menu-btn:hover{
+    background-color: #ccc;
+}
+
+#header .mobile-menu-btn:hover .menu-icon{
+    color: #000;
+}
+
+.menu-icon,
 #header .search-icon{
     line-height: 46px;
     font-size: 20px;
-
 }
 
 #slider{
